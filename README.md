@@ -23,7 +23,8 @@ CUDA/cudnn:10.1
 > - numpy
 > - json
 > - os
-
+...
+```
 ### Prepare dataset
 
 1. Prepare an Excel file containing patient names and the paths to complete imaging sequences as the data input for self-supervised learning (SSL) training.
