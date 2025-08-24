@@ -43,6 +43,7 @@ Organize the folder as follows:
 |   |   |-- image2.png
 ...
 ```
+
 # Training and Evaluation example
 
 > Training and evaluation are on a single GPU.
