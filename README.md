@@ -26,23 +26,9 @@ CUDA/cudnn:10.1
 
 ### Prepare dataset
 
-Organize the folder as follows:
+1. Prepare an Excel file containing patient names and the paths to complete imaging sequences as the data input for self-supervised learning (SSL) training.
 
-```
-|-- dataset/
-|   |-- train/
-|   |   |-- class1
-|   |   |   |-- 32
-|   |   |   |-- 128
-|   |   |-- class1
-|   |   |   |-- 32
-|   |   |   |-- 128
-|   |   |-- ...
-|   |-- test/
-|   |   |-- image1.png
-|   |   |-- image2.png
-...
-```
+2. Prepare another Excel file containing patient names, the paths to two imaging sequences, and the corresponding prediction labels as the data input for supervised prediction training. For missing imaging sequences, use None; for missing labels, use -1.
 
 # Training and Evaluation example
 
